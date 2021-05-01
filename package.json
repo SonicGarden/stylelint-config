@@ -1,0 +1,15 @@
+{
+  "name": "@sonicgarden/prettier-config",
+  "version": "0.0.1",
+  "description": "stylelint config used at SonicGarden",
+  "repository": "SonicGarden/stylelint-config",
+  "keywords": [
+    "stylelint"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "author": "aki77",
+  "main": "index.js"
+}
