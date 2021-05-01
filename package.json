@@ -1,5 +1,5 @@
 {
-  "name": "@sonicgarden/prettier-config",
+  "name": "@sonicgarden/stylelint-config",
   "version": "0.0.1",
   "description": "stylelint config used at SonicGarden",
   "repository": "SonicGarden/stylelint-config",
@@ -11,5 +11,18 @@
   ],
   "license": "MIT",
   "author": "aki77",
-  "main": "index.js"
+  "main": "index.js",
+  "peerDependencies": {
+    "stylelint": "^13.13.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.13.0"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.19.0"
+  }
 }
