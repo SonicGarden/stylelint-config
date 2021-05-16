@@ -8,6 +8,13 @@ module.exports = {
 
     'order/properties-alphabetical-order': true,
 
+    // sass
+    'scss/at-import-no-partial-leading-underscore': true,
+
+    // NOTE: 新しいモジュールシステムへの移行のため
+    'scss/no-global-function-names': true,
+    'at-rule-disallowed-list': ['import'],
+
     // NOTE: vendor prefixはautoprefixer任せでOK
     'at-rule-no-vendor-prefix': true,
     'property-no-vendor-prefix': true,
