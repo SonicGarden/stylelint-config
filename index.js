@@ -1,18 +1,14 @@
 module.exports = {
-  plugins: ['stylelint-order', 'stylelint-scss'],
-  extends: ['stylelint-config-standard', 'stylelint-prettier/recommended'],
+  plugins: ['stylelint-order'],
+  extends: ['stylelint-config-standard-scss', 'stylelint-prettier/recommended'],
+  customSyntax: 'postcss-html',
   rules: {
-    // NOTE: scssで必要
-    'at-rule-no-unknown': null,
-    'scss/at-rule-no-unknown': true,
-
     'order/properties-alphabetical-order': true,
 
-    // sass
-    'scss/at-import-no-partial-leading-underscore': true,
+    // NOTE: プロジェクト単位で設定するべき
+    'selector-class-pattern': null,
 
     // NOTE: 新しいモジュールシステムへの移行のため
-    'scss/no-global-function-names': true,
     'at-rule-disallowed-list': ['import'],
 
     // NOTE: vendor prefixはautoprefixer任せでOK
