@@ -1,6 +1,7 @@
 module.exports = {
   plugins: ['stylelint-order'],
   extends: ['stylelint-config-standard-scss', 'stylelint-prettier/recommended'],
+  customSyntax: 'postcss-html',
   rules: {
     'order/properties-alphabetical-order': true,
 
