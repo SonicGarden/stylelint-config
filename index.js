@@ -4,6 +4,9 @@ module.exports = {
   rules: {
     'order/properties-alphabetical-order': true,
 
+    // NOTE: プロジェクト単位で設定するべき
+    'selector-class-pattern': null,
+
     // NOTE: 新しいモジュールシステムへの移行のため
     'at-rule-disallowed-list': ['import'],
 
