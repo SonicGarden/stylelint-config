@@ -11,6 +11,14 @@ module.exports = {
     // NOTE: 新しいモジュールシステムへの移行のため
     'at-rule-disallowed-list': ['import'],
 
+    // NOTE: プライベート変数は許容
+    'scss/dollar-variable-pattern': [
+			'^_?([-a-z][a-z0-9]*)(-[a-z0-9]+)*$',
+			{
+				message: 'Expected variable to be kebab-case',
+			},
+		],
+
     // NOTE: vendor prefixはautoprefixer任せでOK
     'at-rule-no-vendor-prefix': true,
     'property-no-vendor-prefix': true,
