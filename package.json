@@ -1,6 +1,6 @@
 {
   "name": "@sonicgarden/stylelint-config",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "stylelint config used at SonicGarden",
   "repository": "SonicGarden/stylelint-config",
   "keywords": [
