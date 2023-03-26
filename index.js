@@ -1,7 +1,16 @@
 module.exports = {
   plugins: ['stylelint-order'],
   extends: ['stylelint-config-standard-scss', 'stylelint-prettier/recommended'],
-  customSyntax: 'postcss-html',
+  "overrides": [
+    {
+      "files": ["**/*.vue"],
+      "customSyntax": "postcss-html"
+    },
+    {
+      "files": ["**/*.scss"],
+      "customSyntax": "postcss-scss"
+    }
+  ],
   rules: {
     'order/properties-alphabetical-order': true,
 

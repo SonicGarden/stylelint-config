@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "postcss-html": "^1.0.1",
+    "postcss-scss": "^4.0.6",
     "stylelint-config-standard-scss": "^7.0.1",
     "stylelint-order": "^6.0.3",
     "stylelint-prettier": "^3.0.0"
