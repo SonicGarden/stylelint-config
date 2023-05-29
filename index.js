@@ -31,6 +31,9 @@ module.exports = {
     // NOTE: grepしにくくなるので禁止
     'scss/selector-no-union-class-name': true,
 
+    // NOTE: 不明なプロパティと値の組み合わせは禁止
+    'declaration-property-value-no-unknown': true,
+
     // NOTE: vendor prefixはautoprefixer任せでOK
     'at-rule-no-vendor-prefix': true,
     'property-no-vendor-prefix': true,
