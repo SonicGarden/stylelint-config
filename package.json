@@ -13,7 +13,7 @@
   "author": "aki77",
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^15.3.0"
+    "stylelint": "^16.0.2"
   },
   "devDependencies": {
     "stylelint": "^16.0.2"
